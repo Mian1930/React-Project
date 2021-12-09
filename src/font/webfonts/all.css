@@ -1,0 +1,144 @@
+@font-face
+{
+    font-family: 'Poppins-Black';
+  src: url('Poppins-Black.eot'),
+      url('Poppins-Black.eot?#') format('embedded-opentype'),
+      url('Poppins-Black.woff') format('woff'),
+      url('Poppins-Black.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-BlackItalic';
+  src: url('Poppins-BlackItalic.eot'),
+      url('Poppins-BlackItalic.eot?#') format('embedded-opentype'),
+      url('Poppins-BlackItalic.woff') format('woff'),
+      url('Poppins-BlackItalic.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-Bold';
+  src: url('Poppins-Bold.eot'),
+      url('Poppins-Bold.eot?#') format('embedded-opentype'),
+      url('Poppins-Bold.woff') format('woff'),
+      url('Poppins-Bold.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-BoldItalic';
+  src: url('Poppins-BoldItalic.eot'),
+      url('Poppins-BoldItalic.eot?#') format('embedded-opentype'),
+      url('Poppins-BoldItalic.woff') format('woff'),
+      url('Poppins-BoldItalic.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-ExtraBold';
+  src: url('Poppins-ExtraBold.eot'),
+      url('Poppins-ExtraBold.eot?#') format('embedded-opentype'),
+      url('Poppins-ExtraBold.woff') format('woff'),
+      url('Poppins-ExtraBold.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-ExtraBoldItalic';
+  src: url('Poppins-ExtraBoldItalic.eot'),
+      url('Poppins-ExtraBoldItalic.eot?#') format('embedded-opentype'),
+      url('Poppins-ExtraBoldItalic.woff') format('woff'),
+      url('Poppins-ExtraBoldItalic.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-ExtraLight';
+  src: url('Poppins-ExtraLight.eot'),
+      url('Poppins-ExtraLight.eot?#') format('embedded-opentype'),
+      url('Poppins-ExtraLight.woff') format('woff'),
+      url('Poppins-ExtraLight.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-ExtraLightItalic';
+  src: url('Poppins-ExtraLightItalic.eot'),
+      url('Poppins-ExtraLightItalic.eot?#') format('embedded-opentype'),
+      url('Poppins-ExtraLightItalic.woff') format('woff'),
+      url('Poppins-ExtraLightItalic.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-Italic';
+  src: url('Poppins-Italic.eot'),
+      url('Poppins-Italic.eot?#') format('embedded-opentype'),
+      url('Poppins-Italic.woff') format('woff'),
+      url('Poppins-Italic.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-Light';
+  src: url('Poppins-Light.eot'),
+      url('Poppins-Light.eot?#') format('embedded-opentype'),
+      url('Poppins-Light.woff') format('woff'),
+      url('Poppins-Light.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-LightItalic';
+  src: url('Poppins-LightItalic.eot'),
+      url('Poppins-LightItalic.eot?#') format('embedded-opentype'),
+      url('Poppins-LightItalic.woff') format('woff'),
+      url('Poppins-LightItalic.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-Medium';
+  src: url('Poppins-Medium.eot'),
+      url('Poppins-Medium.eot?#') format('embedded-opentype'),
+      url('Poppins-Medium.woff') format('woff'),
+      url('Poppins-Medium.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-MediumItalic';
+  src: url('Poppins-MediumItalic.eot'),
+      url('Poppins-MediumItalic.eot?#') format('embedded-opentype'),
+      url('Poppins-MediumItalic.woff') format('woff'),
+      url('Poppins-MediumItalic.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-Regular';
+  src: url('Poppins-Regular.eot'),
+      url('Poppins-Regular.eot?#') format('embedded-opentype'),
+      url('Poppins-Regular.woff') format('woff'),
+      url('Poppins-Regular.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-SemiBold';
+  src: url('Poppins-SemiBold.eot'),
+      url('Poppins-SemiBold.eot?#') format('embedded-opentype'),
+      url('Poppins-SemiBold.woff') format('woff'),
+      url('Poppins-SemiBold.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-SemiBoldItalic';
+  src: url('Poppins-SemiBoldItalic.eot'),
+      url('Poppins-SemiBoldItalic.eot?#') format('embedded-opentype'),
+      url('Poppins-SemiBoldItalic.woff') format('woff'),
+      url('Poppins-SemiBoldItalic.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-Thin';
+  src: url('Poppins-Thin.eot'),
+      url('Poppins-Thin.eot?#') format('embedded-opentype'),
+      url('Poppins-Thin.woff') format('woff'),
+      url('Poppins-Thin.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: 'Poppins-ThinItalic';
+  src: url('Poppins-ThinItalic.eot'),
+      url('Poppins-ThinItalic.eot?#') format('embedded-opentype'),
+      url('Poppins-ThinItalic.woff') format('woff'),
+      url('Poppins-ThinItalic.ttf') format('truetype');
+}

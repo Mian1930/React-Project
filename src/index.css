@@ -1,0 +1,477 @@
+@font-face {
+  font-family: "futura-bold";
+  src: url("/src/font/futura/FuturaNowText-XBd.otf");
+}
+@font-face {
+  font-family: "futura-medium";
+  src: url("/src/font/futura/FuturaNowText-Md.otf");
+}
+@font-face {
+  font-family: "futura-light";
+  src: url("/src/font/futura/FuturaNowText-Rg.otf");
+}
+/* .Background {
+  background-image   : url(./Images/backgroundd.png);
+  background-size    : cover;
+  background-repeat  : no-repeat;
+  background-position: center;
+} */
+.Background1 {
+  background-image: url(./Images/backgroundd1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.font-light {
+  font-family: "futura-light";
+}
+.font-medium {
+  font-family: "futura-medium";
+}
+.font-bold {
+  font-family: "futura-bold";
+}
+li.MuiMenuItem-root {
+  font-family: "futura-light";
+}
+.font-32 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.01em;
+  color: #1a202e;
+}
+.font-40 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.01em;
+  color: #1a202e;
+}
+.apexcharts-gridlines-horizontal line,
+.apexcharts-xaxis-tick {
+  display: none;
+}
+.apexcharts-series path {
+  fill: none !important;
+}
+.font-12 {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+.font-14 {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+.font-16 {
+  font-size: 1rem;
+}
+.pl-1 {
+  padding-left: 3px;
+}
+
+.text-grey {
+  color: #97a6ba;
+}
+
+.bodr-white {
+  border: 1px solid white !important;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-box .card.hide {
+  visibility: hidden;
+}
+
+/* inputButton */
+
+.AddedButton {
+  /* This bit sets up the horizontal layout */
+  display: flex;
+  flex-direction: row;
+
+  box-shadow: 0px 10px 20px -8px #323c5a;
+
+  /* I've used padding so you can see the edges of the elements. */
+  padding: 5px;
+  background: white;
+}
+
+.AddedButton input {
+  /* Tell the input to use all the available space */
+  flex-grow: 2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border: none;
+}
+
+.AddedButton input:focus {
+  /* removing the input focus blue box. Put this on the form if you like. */
+  outline: none;
+}
+
+.AddedButton button {
+  /* Just a little styling to make it pretty */
+  border: none;
+  background: #e43969;
+  color: white;
+}
+
+/* Cards Carousal */
+
+.banner-slider-container div.card {
+  width: 100%;
+}
+
+.cards-box {
+  position: relative;
+}
+
+.cards-box .card {
+  height: 100%;
+  max-width: 80vw;
+  background: #ffffff;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.cards-box .card.hide {
+  visibility: hidden;
+}
+
+.cards-box .card:not(.hide) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 0.8s cubic-bezier(0.18, 0.98, 0.45, 1);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+}
+
+.cards-box .card:not(.hide)[data-slide="0"] {
+  transform: translate(0px, 1px) scale(1);
+  z-index: 6;
+  opacity: 1;
+}
+
+.cards-box .card:not(.hide)[data-slide="1"] {
+  transform: translate(-3%, 1px) scale(0.9);
+  z-index: 5;
+  opacity: 0.9;
+}
+
+.cards-box .card:not(.hide)[data-slide="2"] {
+  transform: translate(-12%, 1px) scale(0.8);
+  z-index: 4;
+  opacity: 0.8;
+}
+
+.cards-box .card:not(.hide)[data-slide="3"] {
+  transform: translate(-18%, 1px) scale(0.7);
+  z-index: 3;
+  opacity: 0.7;
+}
+
+.cards-box .card:not(.hide)[data-slide="4"] {
+  transform: translate(-25%, 1px) scale(0.6);
+  z-index: 2;
+  opacity: 0.6;
+}
+
+.cards-box .card:not(.hide)[data-slide="5"] {
+  transform: translate(-25%, 1px) scale(0.6);
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.cards-box .card:not(.hide)[data-slide="0"] {
+  transition: all 0.32s cubic-bezier(0.18, 0.98, 0.45, 1);
+}
+
+.content-placeholder {
+  padding: 10px;
+  height: 100%;
+  width: auto;
+}
+
+.content-placeholder img {
+  border-radius: 14px;
+  object-fit: cover;
+  height: 100%;
+}
+
+.BannerNav {
+  background-color: white !important;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0px 5px;
+}
+
+.BannerNav.active,
+.BannerNav:hover {
+  background: #e43969 !important;
+  color: white !important;
+}
+
+/* Markets */
+.Heading {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.stock-type span {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: center;
+  /* padding       : 10px; */
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 0 17px;
+  position: relative;
+}
+
+.stock-type span:hover {
+  color: #e43969;
+}
+
+.stock-type span.Active {
+  border-bottom: 1px solid #e43969;
+  color: #e43969;
+}
+
+.stock-type span.Active:after {
+  content: " ";
+  position: absolute;
+  width: calc(100% - 20px);
+  height: 1px;
+  background: #e43969 !important;
+  bottom: -8px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.stock-type,
+.stock-company {
+  overflow-y: auto;
+  padding-bottom: 15px;
+}
+
+.stock-type::-webkit-scrollbar,
+.stock-company::-webkit-scrollbar {
+  display: none;
+}
+
+.stock-company div img {
+  object-fit: contain;
+  height: 40px;
+  cursor: pointer;
+  filter: grayscale(1);
+  transition: all 0.2s;
+}
+
+.stock-company div.Active img,
+.stock-company div img:hover {
+  filter: none !important;
+}
+
+/* .d-flex.stock-company div {
+  margin: 25px 15px;
+  position: relative;
+} */
+
+/* .stock-company div.Active:after {
+  content: " ";
+  height: 10px;
+  width: 10px;
+  background: #e43969 !important;
+  position: absolute;
+  border-radius: 50%;
+  top: -9px;
+  right: -14px;
+}*/
+
+.css-eg0mwd-MuiSlider-thumb:before,
+.css-7drnjp::before {
+  background: #e43969 !important;
+}
+
+.css-1aznpnh-MuiSlider-root,
+.MuiSlider-track.css-1t2bqnt,
+.MuiSlider-rail.css-b04pc9 {
+  color: #e2e8f0 !important;
+  height: 8px !important;
+}
+
+.css-1tfve6q-MuiSlider-mark,
+.css-6cwnna-MuiSlider-mark {
+  width: 2px !important;
+  color: white !important;
+  height: 8px !important;
+}
+
+.css-yafthl-MuiSlider-markLabel,
+.css-1eoe787-MuiSlider-markLabel {
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.css-1kz0hui-MuiSlider-valueLabel {
+  display: none !important;
+}
+
+.borderRight {
+  border-right: 1px solid rgb(127, 130, 137);
+}
+
+.TextLabel {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.textComp {
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: -30px;
+  letter-spacing: 6px !important;
+}
+
+.apexcharts-yaxis,
+.apexcharts-xaxis,
+.apexcharts-toolbar {
+  display: none !important;
+}
+
+.graphPrice {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0px;
+}
+
+.graphPer {
+  color: #43af53;
+  margin-bottom: 0px;
+}
+
+.stock-amount-main p {
+  color: #98a5ba;
+}
+.stock-amount-slider {
+  margin-left: 10px;
+}
+
+div#market_select {
+  color: #e43969;
+  font-weight: bolder;
+  font-size: 32px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1.2;
+  padding-left: 0;
+}
+h2.stock-amount-main-text strong {
+  padding-right: 7px;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  font-family: "futura-bold" !important;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.01em;
+}
+div#market_select ~ fieldset {
+  border: none;
+}
+span.MuiSlider-track.css-1gv0vcd-MuiSlider-track {
+  color: #e43969;
+}
+.chart-area {
+  background: #f5f6f8;
+  margin-top: -4px;
+  padding: 50px;
+}
+.chart-area-numbers {
+  border-bottom: 1px solid #eaeef2;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
+}
+.stock-company {
+  justify-content: space-between;
+}
+.bottom-text i {
+  color: #e5386a;
+  margin-right: 5px;
+}
+a.btn_secondary {
+  background: #e5386a;
+  color: white !important;
+  text-decoration: none;
+  min-width: 100%;
+  padding: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin: 40px 0 0;
+}
+.graph-loader {
+  height: 4px;
+}
+.css-eglki6-MuiLinearProgress-root {
+  background-color: #e4396917 !important;
+}
+.css-5ir5xx-MuiLinearProgress-bar1,
+.css-1r8wrcl-MuiLinearProgress-bar2 {
+  background-color: #e43969 !important;
+}
+.bulletText:before {
+  content: "•";
+  color: #44b153;
+  font-size: 26px;
+}
+.bulletText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 760px) {
+  /* .sliding {
+    justify-content: center !important;
+  } */
+}
+
+@media only screen and (max-width: 767px) {
+  .borderRight {
+    border-right: 0px;
+  }
+  .mobile-hidden {
+    display: none;
+  }
+
+  .css-1aznpnh-MuiSlider-root {
+    width: 95% !important;
+  }
+  .mb-p-0 {
+    padding: 0 !important;
+  }
+  .chart-area {
+    padding: 15px !important;
+  }
+}

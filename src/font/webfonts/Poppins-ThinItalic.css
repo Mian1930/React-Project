@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'Poppins-ThinItalic';
+  src: url('Poppins-ThinItalic.eot');
+      url('Poppins-ThinItalic.eot?#') format('embedded-opentype'),
+      url('Poppins-ThinItalic.woff') format('woff'),
+      url('Poppins-ThinItalic.ttf') format('truetype');
+}

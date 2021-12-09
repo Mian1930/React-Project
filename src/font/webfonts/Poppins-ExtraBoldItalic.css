@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'Poppins-ExtraBoldItalic';
+  src: url('Poppins-ExtraBoldItalic.eot');
+      url('Poppins-ExtraBoldItalic.eot?#') format('embedded-opentype'),
+      url('Poppins-ExtraBoldItalic.woff') format('woff'),
+      url('Poppins-ExtraBoldItalic.ttf') format('truetype');
+}

@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'Poppins-SemiBoldItalic';
+  src: url('Poppins-SemiBoldItalic.eot');
+      url('Poppins-SemiBoldItalic.eot?#') format('embedded-opentype'),
+      url('Poppins-SemiBoldItalic.woff') format('woff'),
+      url('Poppins-SemiBoldItalic.ttf') format('truetype');
+}
